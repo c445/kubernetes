@@ -53,7 +53,7 @@ import (
 )
 
 // NodePortRange should match whatever the default/configured range is
-var NodePortRange = utilnet.PortRange{Base: 30000, Size: 2768}
+var NodePortRange = utilnet.PortRange{Base: 30000, Size: 12001}
 
 // PauseDeploymentLabels are unique deployment selector labels for pause pod
 var PauseDeploymentLabels = map[string]string{"deployment": "agnhost-pause"}
